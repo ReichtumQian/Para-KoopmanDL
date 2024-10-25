@@ -72,5 +72,7 @@ extra_css:
 nav:
   - User Manual:
     - Quick Start: "UserManual/QuickStart.md"
-  # - Mathematics:
+  - Mathematics:
+    - Parametric Koopman: "Mathematics/ParaKoopman.md"
+    - Finite-dimensional Approximation of Koopman: "Mathematics/ApproxKoopman.md"
   # - Design Documentation:
