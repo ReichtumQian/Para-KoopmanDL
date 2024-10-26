@@ -10,6 +10,7 @@ theme:
     - navigation.instant
     - navigation.top
     - content.code.annotate
+    - navigation.expand
     # - navigation.tabs
   palette:
     # Light mode
@@ -91,3 +92,5 @@ nav:
     - Flow Maps:
       - Class FlowMap: "ClassReferences/FlowMap.md"
       - Class ForwardEuler: "ClassReferences/ForwardEuler.md"
+    - Data Management:
+      - Class ODEDataSet: "ClassReferences/ODEDataSet.md"
