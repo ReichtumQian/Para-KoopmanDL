@@ -6,11 +6,10 @@ mapping $\Psi: \mathbb{R}^{N \times N_x} \rightarrow \mathbb{R}^{N \times N_{\ps
 ## Attributes
 
 - `__Ny`: The number of non-trainable outputs.
-- `__optimizer`: The optimizer of `_func`, which is a neural network model.
 
 ## Methods
 
-- `__init__(self, func, Nx, Npsi, optimizer)`
-- `train(self, data_loader, loss_func, n_epochs)`: Trains the `self._func`.
+- `__init__(self, func, Nx, Npsi, Ny)`
+- `parameters(self)`: Return the trainable parameters of the network.
 
 

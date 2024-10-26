@@ -74,7 +74,7 @@ nav:
   - User Guide:
     - Quick Start: "UserGuide/QuickStart.md"
   - Mathematics:
-    - Parametric Koopman: "Mathematics/ParaKoopman.md"
+    - Parametric Koopman: "Mathematics/ParamKoopman.md"
     - Finite-dimensional Approximation of Koopman: "Mathematics/ApproxKoopman.md"
   - Class References:
     - Dictionary:
@@ -82,14 +82,14 @@ nav:
       - Class TrainableDictionary: "ClassReferences/TrainableDictionary.md"
     - Koopman Operator:
       - Class Koopman: "ClassReferences/Koopman.md"
-      - Class ParaKoopman: "ClassReferences/ParaKoopman.md"
-    - Solvers:
+      - Class ParamKoopman: "ClassReferences/ParamKoopman.md"
+    - Solver:
       - Class EDMDSolver: "ClassReferences/EDMDSolver.md"
       - Class EDMDDLSolver: "ClassReferences/EDMDDLSolver.md"
-      - Class ParaKoopmanDLSolver: "ClassReferences/ParaKoopmanDLSolver.md"
+      - Class ParamKoopmanDLSolver: "ClassReferences/ParamKoopmanDLSolver.md"
     - ODEs:
       - Class AbstractODE: "ClassReferences/AbstractODE.md"
-    - Flow Maps:
+    - Flow Map:
       - Class FlowMap: "ClassReferences/FlowMap.md"
       - Class ForwardEuler: "ClassReferences/ForwardEuler.md"
     - Data Management:
