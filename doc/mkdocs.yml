@@ -83,7 +83,6 @@ nav:
       - Class Koopman: "ClassReferences/Koopman.md"
       - Class ParaKoopman: "ClassReferences/ParaKoopman.md"
     - Solvers:
-      - Class KoopmanSolver: "ClassReferences/KoopmanSolver.md"
       - Class EDMDSolver: "ClassReferences/EDMDSolver.md"
       - Class EDMDDLSolver: "ClassReferences/EDMDDLSolver.md"
       - Class ParaKoopmanDLSolver: "ClassReferences/ParaKoopmanDLSolver.md"
