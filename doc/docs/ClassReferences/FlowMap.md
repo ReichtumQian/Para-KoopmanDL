@@ -5,7 +5,7 @@ for initial value problems (IVPs).
 
 ## Attributes
 
-- `_dt`: The time step size.
+- `_dt` (float): The time step size.
 
 ## Methods
 

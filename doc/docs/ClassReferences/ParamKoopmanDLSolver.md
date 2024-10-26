@@ -4,9 +4,10 @@ learning parametric Koopman decompositions.
 
 ## Attributes
 
-- `__dictionary`: A instance of `TrainableDictionary`.
+- `__dictionary` (TrainableDictionary)
 
 ## Methods
 
-- `__init__()`
-- `solve(self, data_x, data_y, data_u, n_epochs, batch_size, tol)`
+- `__init__(self, dictionary)`
+- `solve(self, dataset, n_epochs, batch_size, tol)`:
+    - `dataset` (ODEDataSet): The dataset to solve.

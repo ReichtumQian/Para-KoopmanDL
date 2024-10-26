@@ -8,4 +8,5 @@ where $k$ is the time step size.
 
 ## Methods
 
+- `__init__(self, dt)`
 - `step(self, ode, x, u)`: Overrides `FlowMap.step()`.

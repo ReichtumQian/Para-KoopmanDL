@@ -5,7 +5,10 @@ mapping $\Psi: \mathbb{R}^{N \times N_x} \rightarrow \mathbb{R}^{N \times N_{\ps
 
 ## Attributes
 
-- `__Ny`: The number of non-trainable outputs.
+- `__Ny` (int): The number of non-trainable outputs.
+
+!!! info
+    The attribute `_function` inherited from `Dictionary` should be an instance of `torch.nn.Module`.
 
 ## Methods
 
