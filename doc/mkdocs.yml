@@ -70,9 +70,25 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - User Manual:
-    - Quick Start: "UserManual/QuickStart.md"
+  - User Guide:
+    - Quick Start: "UserGuide/QuickStart.md"
   - Mathematics:
     - Parametric Koopman: "Mathematics/ParaKoopman.md"
     - Finite-dimensional Approximation of Koopman: "Mathematics/ApproxKoopman.md"
-  # - Design Documentation:
+  - Class References:
+    - Dictionary:
+      - Class Dictionary: "ClassReferences/Dictionary.md"
+      - Class TrainableDictionary: "ClassReferences/TrainableDictionary.md"
+    - Koopman Operator:
+      - Class Koopman: "ClassReferences/Koopman.md"
+      - Class ParaKoopman: "ClassReferences/ParaKoopman.md"
+    - Solvers:
+      - Class KoopmanSolver: "ClassReferences/KoopmanSolver.md"
+      - Class EDMDSolver: "ClassReferences/EDMDSolver.md"
+      - Class EDMDDLSolver: "ClassReferences/EDMDDLSolver.md"
+      - Class ParaKoopmanDLSolver: "ClassReferences/ParaKoopmanDLSolver.md"
+    - ODEs:
+      - Class AbstractODE: "ClassReferences/AbstractODE.md"
+    - Flow Maps:
+      - Class FlowMap: "ClassReferences/FlowMap.md"
+      - Class ForwardEuler: "ClassReferences/ForwardEuler.md"
