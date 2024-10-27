@@ -15,4 +15,4 @@ $$ \dot{\mathbf{x}}(t) = \mathbf{f} (\mathbf{x}(t), \mathbf{u}). $$
 ## Methods
 
 - `__init__(self, dim, param_dim, rhs)`
-- `rhs(self)`: Return the right-hand side function of the ODE.
+- `rhs(self, x, u)`: Computes the right-hand side function using the inputs `(x, u)`. If `_param_dim=0` then `u` will be ignored.

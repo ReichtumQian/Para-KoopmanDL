@@ -10,7 +10,7 @@ theme:
     - navigation.instant
     - navigation.top
     - content.code.annotate
-    - navigation.expand
+    # - navigation.expand
     # - navigation.tabs
   palette:
     # Light mode

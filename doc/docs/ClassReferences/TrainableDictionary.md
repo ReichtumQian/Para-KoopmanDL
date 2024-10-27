@@ -13,6 +13,10 @@ mapping $\Psi: \mathbb{R}^{N \times N_x} \rightarrow \mathbb{R}^{N \times N_{\ps
 ## Methods
 
 - `__init__(self, func, Nx, Npsi, Ny)`
-- `parameters(self)`: Return the trainable parameters of the network.
+    - `func` (torch.nn.Module): The trainable neural network.
+    - `Nx` (int): The dimension of the input.
+    - `Npsi` (int): The dimension of the output.
+    - `Ny` (int): The number of non-trainable outputs.
+- `parameters(self)`: Return the trainable parameters of the network `_function`.
 
 

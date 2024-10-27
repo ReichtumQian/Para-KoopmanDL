@@ -3,12 +3,15 @@ The class `EDMDSolver` implements the EDMD algorithm.
 
 ## Attributes
 
-- `_dictionary`: A dictionary of basis functions.
+- `_dictionary` (Dictionary): A dictionary of basis functions.
 
 ## Methods
 
 - `__init__(self, dictionary)`
-- `solve(self, data_x, data_y)`
+- `solve(self, dataset)`: 
+  Applies the EDMD algorithm to solve the system,
+    - `dataset` (ODEDataSet): The dataset to solve.
+    - `return` (Koopman): The Koopman operator.
 
 
 

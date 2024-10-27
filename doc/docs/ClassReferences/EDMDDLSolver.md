@@ -8,9 +8,15 @@ The class `EDMDDLSolver` implements the EDMD-DL algorithm.
 ## Methods
 
 - `__init__(self, dictionary, regularizer)`
-- `solve(self, data_x, data_y, n_epochs, batch_size, tolerance)`: 
-  Applies the EDMD-DL algorithm to solve the system, 
-  return a `Koopman` instance with a neural network function.
+    - `dictionary` (TrainableDictionary)
+    - `regularizer` (float)
+- `solve(self, dataset, n_epochs, batch_size, tol)`: 
+  Applies the EDMD-DL algorithm to solve the system.
+    - `dataset` (ODEDataSet): The dataset to solve.
+    - `n_epochs` (int): The number of epochs.
+    - `batch_size` (int): The batch size.
+    - `tol` (float): The tolerance of the solver.
+    - `return` (Koopman): The Koopman operator with a neural network function.
 
 
 
