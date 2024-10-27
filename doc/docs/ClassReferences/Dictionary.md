@@ -8,13 +8,13 @@ $\Psi: \mathbb{R}^{N \times N_x} \rightarrow \mathbb{R}^{N \times N_{\psi}}$.
 
 ## Attributes
 
-- `_function`: The batched vector function
+- `_function` (ndarray -> ndarray): The batched vector function
   $\Psi: \mathbb{R}^{N \times N_x} \rightarrow \mathbb{R}^{N \times N_{\psi}}$.
-- `_Nx`: The input dimension $N_x$.
-- `_Npsi`: The output dimension $N_{\psi}$.
+- `_dim_input` (int): The input dimension $N_x$.
+- `_dim_output` (int): The output dimension $N_{\psi}$.
 
 ## Methods
 
-- `__init__(self, function, Nx, Npsi)`
+- `__init__(self, function, dim_input, dim_output)`
 - `__call__(self, x)`: Applies the dictionary to input `x`, which must satisfy $x \in \mathbb{R}^{N \times N_x}$.
 
